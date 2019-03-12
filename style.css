@@ -1,14 +1,36 @@
 .place {
-  background: #ff33ff;
+  background: #fFffbF;
+  padding-bottom: 150px;
 }
 
 .wrap {
  max-width: 1024px;
  background: #ffffff;
  margin: 0 auto;
+ position: relative;
+ border-radius: 15px;
+ top: 100px;
+ box-shadow: #454545 15px 15px 15px;
 }
 
 img {
   width:100px;
-  
+  position: relative;
+  top:10px;
+  left:100px;
   }
+
+img:hover {
+  position: absolute;
+  width: 550px;
+  opacity: 0.85;;
+}  
+
+h1 {
+    font-family: arial;
+}
+
+li{
+  text-align: justify;
+  padding-right: 25px;
+}
