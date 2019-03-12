@@ -32,7 +32,7 @@
                list($usec,$sec)=explode(" ",microtime());
             return ((float)$usec+(float)$sec);
             }
-            // function getLinks serch link on URL in $tu (**t**arget **U**RL) with preg_match_all function and regular expressions
+            // function getLinks serch link on URL in $tu (Target URL) with preg_match_all function and regular expressions
             function getlinks($tu){
             $html=file_get_contents("$tu");
             preg_match_all("/(?<=href\=\"|href\=\'|url\=\"|src\=\"|src\=\'|action\=\"|img\=\"|xmlns\=\"|profile=\"|url\(\")\S*?(?=\"|\"\>|\')/",$html, $matches1);
