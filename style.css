@@ -1,0 +1,14 @@
+.place {
+  background: #ff33ff;
+}
+
+.wrap {
+ max-width: 1024px;
+ background: #ffffff;
+ margin: 0 auto;
+}
+
+img {
+  width:100px;
+  
+  }
